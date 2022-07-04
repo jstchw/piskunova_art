@@ -11513,6 +11513,8 @@ html {
   height: 1em;
   margin-bottom: 0.5em;
   margin-right: 0.3em;
+  filter: drop-shadow(1px 1px 0 black)
+          drop-shadow(-1px 0px 0 black);
 }
 
 #ldn-icon-custom {
