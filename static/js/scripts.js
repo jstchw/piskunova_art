@@ -97,11 +97,17 @@ $(function () {
 
     })
 
-    $('#close-button-modal').click(() => {
-        $('input', '#contactForm')
-            .not(':button, :submit, :reset, :hidden')
-            .val('')
-        $('textarea.form-control').val('')
+    // Remove
+    // $('#close-button-modal').click(() => {
+    //     $('input', '#contactForm')
+    //         .not(':button, :submit, :reset, :hidden')
+    //         .val('')
+    //     $('textarea.form-control').val('')
+    //     $('#contactForm').removeClass('was-validated')
+    // })
+
+    $('#emailModal').on('hidden.bs.modal', () => {
+        $('#contactForm').trigger('reset')
         $('#contactForm').removeClass('was-validated')
     })
 
