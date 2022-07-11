@@ -3,6 +3,7 @@ from flask_mail import Mail, Message
 from datetime import date
 from static import config
 from markupsafe import escape
+import httpagentparser
 
 app = Flask(__name__, template_folder='templates')
 
@@ -16,6 +17,11 @@ def main():
     year = date.today().year
     return render_template('main.html', insta_profile=insta_profile, year=year, github_profile=github_profile,
                            in_profile=in_profile, email=email)
+
+
+@app.route('/theatre')
+def theatre():
+    return render_template('theatre.html')
 
 
 @app.route('/send_email', methods=['POST'])

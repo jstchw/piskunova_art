@@ -1,12 +1,3 @@
-/*!
-* Start Bootstrap - Freelancer v7.0.6 (https://startbootstrap.com/theme/freelancer)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -66,8 +57,9 @@ window.addEventListener('DOMContentLoaded', event => {
         })
     })
 
-$(function () {
-    let modalForm = $('.modal-form-content')
+// JQuery part of code
+// Handles the email sending via AJAX
+$(() => {
     let submitButton = $('#submitButton')
     $('#contactForm').on('submit', function (e) {
         e.preventDefault()
@@ -97,15 +89,7 @@ $(function () {
 
     })
 
-    // Remove
-    // $('#close-button-modal').click(() => {
-    //     $('input', '#contactForm')
-    //         .not(':button, :submit, :reset, :hidden')
-    //         .val('')
-    //     $('textarea.form-control').val('')
-    //     $('#contactForm').removeClass('was-validated')
-    // })
-
+    // Clean the form on modal close
     $('#emailModal').on('hidden.bs.modal', () => {
         $('#contactForm').trigger('reset')
         $('#contactForm').removeClass('was-validated')
@@ -114,6 +98,7 @@ $(function () {
     return false
 })
 
+// Function to handle when the email fails to send
 function emailNotSent(submitButton) {
     const spinner = submitButton.contents()
     const cross = $('<div id="cross-fade" class="far fa-times-circle"></div>')
@@ -128,6 +113,7 @@ function emailNotSent(submitButton) {
     })
 }
 
+// Function to handle when the email is sent successfully
 function emailSent(submitButton) {
     const spinner = submitButton.contents()
     const check = $('<div id="check-fade" class="far fa-check-circle"></div>')
