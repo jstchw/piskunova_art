@@ -11480,6 +11480,7 @@ html {
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+  padding-bottom: 3em;
 }
 
 .portfolio-modal .btn-close {
@@ -11526,4 +11527,21 @@ html {
 #submitButton {
   width: 103px;
   height: 66px;
+}
+
+.portfolio-text-container {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.portfolio-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

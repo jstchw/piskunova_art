@@ -24,6 +24,15 @@ def theatre():
     return render_template('theatre.html')
 
 
+@app.route('/media')
+def media():
+    return render_template('media.html')
+
+
+@app.route('/collections')
+def collections():
+    return render_template('collections.html')
+
 @app.route('/send_email', methods=['POST'])
 def send_email():
     name = request.form.get("name")
