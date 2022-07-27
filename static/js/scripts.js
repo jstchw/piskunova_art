@@ -14,11 +14,16 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
+    /*
+    Navbar shrinking function exists but the listener for it is disabled
+    for cosmetic purposes.
+     */
+
     // Shrink the navbar 
-    navbarShrink();
+    //navbarShrink();
 
     // Shrink the navbar when page is scrolled
-    document.addEventListener('scroll', navbarShrink);
+    //document.addEventListener('scroll', navbarShrink);
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
@@ -42,7 +47,7 @@ window.addEventListener('DOMContentLoaded', event => {
         })
     })
 
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
     let forms = document.querySelectorAll('.needs-validation')
 
     Array.prototype.slice.call(forms)
