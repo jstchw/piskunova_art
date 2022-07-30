@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99699306-2aa3-447a-afd6-e8bc9a6b802a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gunicorn_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <updated>1656951944744</updated>
       <workItem from="1656951949366" duration="24950000" />
       <workItem from="1657373610284" duration="265000" />
-      <workItem from="1657374303704" duration="41822000" />
+      <workItem from="1657374303704" duration="42162000" />
     </task>
     <servers />
   </component>
