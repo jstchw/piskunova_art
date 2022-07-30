@@ -1,9 +1,10 @@
+import os
+
 from flask import Flask, render_template, request
 from flask_mail import Mail, Message
 from datetime import date
 from static import config
 from markupsafe import escape
-import httpagentparser
 
 app = Flask(__name__, template_folder='templates')
 
@@ -56,15 +57,5 @@ def send_email():
     return ''
 
 
-# @app.route('/theatre')
-# def theatre():
-#     return render_template('templates_obsolete/theatre.html')
-#
-#
-# @app.route('/media')
-# def media():
-#     return render_template('templates_obsolete/media.html')
-
-
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
