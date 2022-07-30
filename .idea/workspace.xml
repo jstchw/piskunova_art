@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99699306-2aa3-447a-afd6-e8bc9a6b802a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/collections.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/media.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/theatre.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theatre.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,7 @@
       <updated>1656951944744</updated>
       <workItem from="1656951949366" duration="24950000" />
       <workItem from="1657373610284" duration="265000" />
-      <workItem from="1657374303704" duration="40002000" />
+      <workItem from="1657374303704" duration="41822000" />
     </task>
     <servers />
   </component>
@@ -97,6 +90,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/piskunova_art$piskunova_art.coverage" NAME="piskunova_art Coverage Results" MODIFIED="1658934681123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/piskunova_art$piskunova_art.coverage" NAME="piskunova_art Coverage Results" MODIFIED="1659089839807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
