@@ -34,6 +34,7 @@ def media():
 def collections():
     return render_template('collections.html')
 
+
 @app.route('/send_email', methods=['POST'])
 def send_email():
     name = request.form.get("name")
