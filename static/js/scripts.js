@@ -47,6 +47,15 @@ window.addEventListener('DOMContentLoaded', event => {
         })
     })
 
+    /// When you click everywhere in the document
+    $(document).click(function (event) {
+      /// If *navbar-collapse* is not among targets of event
+      if (!$(event.target).is('.navbar-collapse *')) {
+        /// Collapse every *navbar-collapse*
+        $('.navbar-collapse').collapse('hide');
+      }
+    });
+
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     let forms = document.querySelectorAll('.needs-validation')
 

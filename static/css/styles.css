@@ -11483,10 +11483,20 @@ html {
   /*background-color: rgba(26, 188, 156, 0.9);*/
   background-color: rgba(var(--bs-tertiary-rgb), 0.9);
 }
+
+.portfolio-item-caption-mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-color: rgba(var(--bs-tertiary-rgb), 0.3);
+}
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content,
+.portfolio .portfolio-item .portfolio-item-caption-mobile .portfolio-item-caption-content {
   font-size: 1.5rem;
   padding-bottom: 3em;
 }
